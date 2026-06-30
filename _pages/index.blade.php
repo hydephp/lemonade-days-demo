@@ -4,10 +4,13 @@
 
     <main id="content" class="mx-auto max-w-7xl py-12 px-8">
         <section class="relative mb-16 lg:mb-24">
-            <img src="{{ Hyde::asset('hero-home.jpg') }}" alt="A sunny picnic on the beach with a pitcher of lemonade"
-                 class="w-full h-[26rem] md:h-[32rem] object-cover rounded-2xl border-2 border-charcoal shadow-retro">
+            <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('hero-home.jpg') }}"
+                   class="w-full h-[26rem] md:h-[32rem] object-cover rounded-2xl border-2 border-charcoal shadow-retro"
+                   autoplay muted loop playsinline></video>
 
-            <div class="relative md:absolute md:inset-0 flex flex-col items-center justify-center text-center px-8 py-10 md:py-0 md:bg-charcoal/20 md:rounded-2xl">
+            <div class="absolute top-0 inset-x-0 h-[26rem] md:inset-0 md:h-auto bg-charcoal/40 rounded-2xl"></div>
+
+            <div class="relative md:absolute md:inset-0 flex flex-col items-center justify-center text-center px-8 py-10 md:py-0 md:rounded-2xl">
                 <span class="inline-block bg-skyblue/50 border-2 border-charcoal rounded-full px-4 py-1 mb-4 font-medium text-sm">
                     Fresh squeezed from LA &middot; est. {{ now()->year }}
                 </span>
