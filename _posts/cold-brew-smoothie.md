@@ -3,7 +3,7 @@ title: "Cold Brew Smoothie"
 description: "A creamy morning smoothie with frozen coffee cubes, banana, and oat milk for a refreshing start that feels like sunshine in a glass."
 category: "Breakfast"
 author: "Emily"
-date: "2026-07-08 10:00"
+date: "2026-07-07 10:00"
 image: "_media/post-smoothie.jpg"
 ---
 

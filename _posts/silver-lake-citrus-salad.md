@@ -3,7 +3,7 @@ title: "Silver Lake Citrus Salad"
 description: "A bright, vibrant citrus salad with grapefruit, blood orange, fennel, and fresh mint, tossed in a light honey-citrus dressing. The kind of lunch that tastes like golden hour in LA."
 category: "Food"
 author: "Emily"
-date: "2026-07-03 10:00"
+date: "2026-07-05 10:00"
 image: "_media/post-salad.jpg"
 ---
 
