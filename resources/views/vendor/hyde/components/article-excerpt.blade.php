@@ -50,9 +50,9 @@
         </section>
     @endisset
 
-    <footer>
+    <footer class="mt-4">
         <a href="{{ $post->getRoute() }}"
-           class="inline-block text-charcoal bg-gradient-to-r from-lemon to-lemon bg-no-repeat bg-left bg-[length:0%_100%] [transition:background-size_300ms_ease-out,transform_300ms_ease-out] hover:bg-[length:100%_100%] hover:-translate-y-0.5 hover:-rotate-1 font-medium">
+           class="inline-block bg-lemon border-2 border-charcoal rounded-full px-4 py-1.5 text-sm font-medium text-charcoal shadow-retro hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(39,39,42,1)] transition-transform">
             Read post
         </a>
     </footer>
