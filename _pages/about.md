@@ -1,5 +1,6 @@
 ---
 title: "About Emily"
+navigation.title: "About"
 ---
 
 # Chasing the Sun & Good Food.
