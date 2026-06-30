@@ -10,9 +10,11 @@
             <h1 class="text-4xl leading-tight tracking-tight font-serif font-bold mb-4 md:text-5xl lg:text-6xl text-charcoal">
                 Latest Posts
             </h1>
-            <p class="text-lg text-charcoal/70 max-w-xl mx-auto">
+            <p class="text-lg text-charcoal/70 max-w-xl mx-auto mb-8">
                 Laid-back, sun-drenched recipes for a never-ending summer.
             </p>
+            <img src="{{ Hyde::asset('hero-home.jpg') }}" alt="A sunny picnic on the beach with a pitcher of lemonade"
+                 class="w-full max-h-[28rem] object-cover rounded-2xl border-2 border-charcoal shadow-retro mx-auto">
         </header>
 
         <div id="post-feed" class="max-w-3xl mx-auto">

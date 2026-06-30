@@ -10,6 +10,13 @@
          <meta itemprop="image" content="{{ $post->image }}">
     @endif
 
+    @isset($post->image)
+        <a href="{{ $post->getRoute() }}" class="block -mt-6 -mx-6 mb-4">
+            <img src="{{ $post->image->getSource() }}" alt="{{ $post->image->getAltText() ?? $post->title }}"
+                 class="w-full h-48 object-cover rounded-t-2xl border-b-2 border-charcoal">
+        </a>
+    @endisset
+
     <header>
         <a href="{{ $post->getRoute() }}" class="block w-fit">
             <h2 itemprop="headline" class="text-2xl font-serif font-bold text-charcoal hover:bg-lemon transition-colors duration-75">
