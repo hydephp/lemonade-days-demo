@@ -4,11 +4,14 @@
 
     <main id="content" class="mx-auto max-w-7xl py-12 px-8">
         <section class="relative mb-16 lg:mb-24">
-            <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('hero-home.jpg') }}"
-                   class="w-full h-[26rem] md:h-[32rem] object-cover rounded-2xl border-2 border-charcoal shadow-retro"
-                   autoplay muted loop playsinline></video>
+            <div class="relative h-[26rem] md:h-[32rem] overflow-hidden rounded-2xl border-2 border-charcoal shadow-retro">
+                <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('hero-home.jpg') }}"
+                       x-data x-parallax="0.15"
+                       class="absolute inset-x-0 -top-[12%] w-full h-[124%] object-cover will-change-transform"
+                       autoplay muted loop playsinline></video>
 
-            <div class="absolute top-0 inset-x-0 h-[26rem] md:inset-0 md:h-auto bg-charcoal/40 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-charcoal/40"></div>
+            </div>
 
             <div class="relative md:absolute md:inset-0 flex flex-col items-center justify-center text-center px-8 py-10 md:py-0 md:rounded-2xl">
                 <span class="inline-block bg-skyblue/50 border-2 border-charcoal rounded-full px-4 py-1 mb-4 font-medium text-sm">
@@ -20,7 +23,7 @@
                 <p class="text-lg text-charcoal/70 md:text-sand/90 max-w-xl mx-auto mb-8">
                     Laid-back, sun-drenched recipes for a never-ending summer.
                 </p>
-                <a href="#post-feed"
+                <a href="#post-feed" x-data x-smooth-scroll
                    class="inline-block bg-lemon border-2 border-charcoal rounded-full px-6 py-2 font-medium shadow-retro hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(39,39,42,1)] transition-transform text-charcoal">
                     Grab a Glass
                 </a>

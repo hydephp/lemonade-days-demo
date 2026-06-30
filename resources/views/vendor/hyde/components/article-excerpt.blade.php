@@ -1,6 +1,6 @@
 @php /** @var \Hyde\Pages\MarkdownPost $post */ @endphp
 <article itemprop="item" itemscope itemtype="https://schema.org/BlogPosting"
-    class="bg-sand border-2 border-charcoal rounded-2xl p-6 shadow-retro hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(39,39,42,1)] transition-transform">
+    class="group bg-sand border-2 border-charcoal rounded-2xl p-6 shadow-retro">
     <meta itemprop="identifier" content="{{ $post->identifier }}">
     @if($post->getCanonicalUrl())
         <meta itemprop="url" content="{{ $post->getCanonicalUrl()  }}">
@@ -11,15 +11,16 @@
     @endif
 
     @isset($post->image)
-        <a href="{{ $post->getRoute() }}" class="block -mt-6 -mx-6 mb-4">
+        <a href="{{ $post->getRoute() }}" class="block -mt-6 -mx-6 mb-4 overflow-hidden rounded-t-2xl">
             <img src="{{ $post->image->getSource() }}" alt="{{ $post->image->getAltText() ?? $post->title }}"
-                 class="w-full h-48 object-cover rounded-t-2xl border-b-2 border-charcoal">
+                 class="w-full h-48 object-cover border-b-2 border-charcoal transition-transform duration-300 ease-out group-hover:scale-110">
         </a>
     @endisset
 
     <header>
-        <a href="{{ $post->getRoute() }}" class="block w-fit">
-            <h2 itemprop="headline" class="text-2xl font-serif font-bold text-charcoal hover:bg-lemon transition-colors duration-75">
+        <a href="{{ $post->getRoute() }}" class="group block w-fit">
+            <h2 itemprop="headline"
+                class="inline text-2xl font-serif font-bold text-charcoal bg-gradient-to-r from-lemon to-lemon bg-no-repeat bg-left bg-[length:0%_100%] [transition:background-size_300ms_ease-out,transform_300ms_ease-out] group-hover:bg-[length:100%_100%] group-hover:-translate-y-0.5 group-hover:-rotate-1">
                 {{ $post->data('title') ?? $post->title }}
             </h2>
         </a>
@@ -50,7 +51,8 @@
     @endisset
 
     <footer>
-        <a href="{{ $post->getRoute() }}" class="inline-block text-charcoal decoration-lemon decoration-4 underline underline-offset-2 hover:bg-lemon transition-colors font-medium">
+        <a href="{{ $post->getRoute() }}"
+           class="inline-block text-charcoal bg-gradient-to-r from-lemon to-lemon bg-no-repeat bg-left bg-[length:0%_100%] [transition:background-size_300ms_ease-out,transform_300ms_ease-out] hover:bg-[length:100%_100%] hover:-translate-y-0.5 hover:-rotate-1 font-medium">
             Read post
         </a>
     </footer>
