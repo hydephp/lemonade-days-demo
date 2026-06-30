@@ -94,7 +94,7 @@ return [
     |
     */
 
-    'prose_classes' => 'prose dark:prose-invert',
+    'prose_classes' => 'prose',
 
     /*
     |--------------------------------------------------------------------------

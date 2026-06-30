@@ -13,6 +13,18 @@
 
 @import 'hydefront/components/torchlight.css' layer(base);
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap');
+
 @import 'tailwindcss';
 
 @config '../../tailwind.config.js';
+
+@layer base {
+    body {
+        @apply bg-sand text-charcoal font-sans antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-serif text-charcoal;
+    }
+}
