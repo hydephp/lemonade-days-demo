@@ -1,5 +1,10 @@
 @php($title = 'Home')
 @extends('hyde::layouts.app')
+
+@push('meta')
+    {!! Meta::property('image', Hyde::asset('og-image.png')) !!}
+@endpush
+
 @section('content')
 
     <main id="content" class="mx-auto max-w-7xl py-12 px-8">
