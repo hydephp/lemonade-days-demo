@@ -1,6 +1,6 @@
 ---
 title: "Classic Malibu Lemonade"
-description: "The quintessential summer lemonade recipe with silky homemade simple syrup, fragrant Meyer lemons, and sunshine in every chilled glass."
+description: "The quintessential summer lemonade recipe made with a silky homemade simple syrup, fragrant Meyer lemons, and pure sunshine in every chilled glass."
 category: "Drinks"
 author: "Emily"
 date: "2026-07-01 10:00"

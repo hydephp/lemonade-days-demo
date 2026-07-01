@@ -1,6 +1,6 @@
 ---
 title: "Silver Lake Citrus Salad"
-description: "A bright, vibrant citrus salad with grapefruit, blood orange, fennel, and fresh mint, tossed in a light honey-citrus dressing. The kind of lunch that tastes like golden hour in LA."
+description: "A vibrant citrus salad with grapefruit, blood orange, and fresh mint, tossed in a light honey dressing. A lunch that tastes like LA golden hour."
 category: "Food"
 author: "Emily"
 date: "2026-07-05 10:00"

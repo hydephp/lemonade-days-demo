@@ -1,6 +1,6 @@
 ---
 title: "Sunset Peach Cobbler"
-description: "Golden, bubbling peaches tucked beneath a buttery crumble that tastes like the last warm rays of summer. The perfect dessert for golden hour gatherings."
+description: "Golden, bubbling peaches tucked beneath a buttery crumble that tastes like the last warm rays of summer. The perfect dessert for golden hour."
 category: "Desserts"
 author: "Emily"
 date: "2026-07-08 10:00"

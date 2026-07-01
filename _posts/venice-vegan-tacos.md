@@ -1,6 +1,6 @@
 ---
 title: "Venice Vegan Tacos"
-description: "Golden roasted cauliflower, vibrant mango salsa, and warm tortillas come together for the ultimate light, breezy dinner inspired by an evening on the Venice Beach boardwalk."
+description: "Golden roasted cauliflower, vibrant mango salsa, and warm tortillas come together for a breezy dinner inspired by warm evenings on the Venice boardwalk."
 category: "Recipes"
 author: "Emily"
 date: "2026-07-03 10:00"

@@ -1,6 +1,6 @@
 ---
 title: "Hollywood Lemon Pancakes"
-description: "Weekend brunch perfection with fluffy ricotta pancakes, bright lemon zest, and silky lemon curd for a golden California morning."
+description: "Weekend brunch perfection featuring fluffy ricotta pancakes, bright lemon zest, and a generous drizzle of silky lemon curd for a California morning."
 category: "Brunch"
 author: "Emily"
 date: "2026-07-04 10:00"
