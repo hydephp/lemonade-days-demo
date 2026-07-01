@@ -15,7 +15,7 @@
                        class="absolute inset-x-0 -top-[12%] w-full h-[124%] object-cover will-change-transform"
                        autoplay muted loop playsinline></video>
 
-                <div class="absolute inset-0 bg-charcoal/40"></div>
+                <div class="absolute inset-0 bg-charcoal/50"></div>
             </div>
 
             <div class="relative md:absolute md:inset-0 flex flex-col items-center justify-center text-center px-8 py-10 md:py-0 md:rounded-2xl">
@@ -23,7 +23,7 @@
                     Fresh squeezed from LA &middot; est. {{ now()->year }}
                 </span>
                 <h1 class="text-4xl leading-tight tracking-tight font-serif font-bold mb-4 md:text-5xl lg:text-6xl text-charcoal md:text-sand">
-                    Squeeze the Day: A Taste of LA Summer
+                    Squeeze the Day:<br>A Taste of LA Summer
                 </h1>
                 <p class="text-lg text-charcoal/70 md:text-sand/90 max-w-xl mx-auto mb-8">
                     Laid-back, sun-drenched recipes for a never-ending summer.
@@ -44,17 +44,19 @@
             </div>
         </section>
 
-        <section class="max-w-4xl mx-auto bg-sand border-2 border-charcoal rounded-2xl p-8 shadow-retro flex flex-col sm:flex-row items-center gap-6">
-            <img src="{{ Hyde::asset('about-portrait.webp') }}" alt="Emily enjoying a sunny day"
-                 class="w-28 h-28 rounded-full object-cover border-2 border-charcoal shrink-0">
+        <section class="emily-card max-w-4xl mx-auto bg-sand border-2 border-charcoal rounded-2xl p-8 shadow-retro flex flex-col sm:flex-row items-center gap-6">
+            <div class="emily-photo-wrap w-28 h-28 rounded-full border-2 border-charcoal shrink-0 overflow-hidden">
+                <img src="{{ Hyde::asset('about-portrait.webp') }}" alt="Emily enjoying a sunny day"
+                     class="emily-photo w-full h-full object-cover">
+            </div>
             <div class="text-center sm:text-left">
                 <p class="text-charcoal/90 leading-relaxed mb-3">
                     Hi, I&rsquo;m Emily. I moved to LA and fell head over heels for the food scene&mdash;especially the
                     weekend farmers' markets. Lemonade Days is my love letter to that fresh, sun-drenched lifestyle.
                 </p>
                 <a href="{{ Hyde::route('about')?->getLink() }}"
-                   class="inline-block text-charcoal decoration-lemon decoration-4 underline underline-offset-2 hover:bg-lemon transition-colors font-medium">
-                    Meet Emily
+                   class="emily-link inline-block text-charcoal decoration-lemon decoration-4 underline underline-offset-2 hover:bg-lemon transition-colors font-medium">
+                    Meet Emily <span class="emily-link-arrow" aria-hidden="true">&rarr;</span>
                 </a>
             </div>
         </section>

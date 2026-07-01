@@ -28,3 +28,73 @@
         @apply font-serif text-charcoal;
     }
 }
+
+/* Navbar brand hover animation */
+.brand-logo {
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.brand-link:hover .brand-logo {
+    transform: rotate(-8deg) scale(1.12);
+}
+
+/* Navbar links hover animation */
+.navigation-link {
+    position: relative;
+}
+
+.navigation-link-text {
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+.navigation-link::after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 2px;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.25s ease;
+}
+
+.navigation-link:hover .navigation-link-text {
+    transform: translateY(-2px);
+}
+
+.navigation-link:hover::after {
+    transform: scaleX(1);
+}
+
+/* "Meet Emily" card hover animations */
+.emily-photo-wrap {
+    display: block;
+}
+
+.emily-photo {
+    transition: transform 0.5s ease;
+}
+
+.emily-card:hover .emily-photo {
+    transform: scale(1.18) rotate(2deg);
+}
+
+.emily-link {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.emily-link:hover {
+    transform: translateX(2px);
+}
+
+.emily-link-arrow {
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+.emily-link:hover .emily-link-arrow {
+    transform: translateX(4px);
+}
