@@ -3,7 +3,7 @@ title: "Echo Park Lemon Olive Oil Cake"
 description: "Incredibly moist with a tender crumb and a bright, zesty finish. Made with rich extra virgin olive oil for those slow, hazy weekend afternoons."
 category: "Sweets"
 author: "Emily"
-date: "2026-07-09 10:00"
+date: "2026-07-03 10:00"
 image: "_media/post-cake.webp"
 ---
 

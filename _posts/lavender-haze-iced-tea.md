@@ -3,7 +3,7 @@ title: "Lavender Haze Iced Tea"
 description: "A floral, chilled afternoon refresher crafted with culinary lavender and crisp black tea. It is absolutely perfect for slow summer days on the patio."
 category: "Drinks"
 author: "Emily"
-date: "2026-07-02 10:00"
+date: "2026-07-07 10:00"
 image: "_media/post-tea.webp"
 ---
 

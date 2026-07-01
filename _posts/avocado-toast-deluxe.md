@@ -3,7 +3,7 @@ title: "Avocado Toast Deluxe"
 description: "A golden slice of sourdough topped with creamy avocado, crisp microgreens, and a pinch of chili flakes—the LA breakfast that never goes out of style."
 category: "Breakfast"
 author: "Emily"
-date: "2026-07-06 10:00"
+date: "2026-07-09 10:00"
 image: "_media/post-toast.webp"
 ---
 

@@ -3,7 +3,7 @@ title: "Venice Vegan Tacos"
 description: "Golden roasted cauliflower, vibrant mango salsa, and warm tortillas come together for a breezy dinner inspired by warm evenings on the Venice boardwalk."
 category: "Recipes"
 author: "Emily"
-date: "2026-07-03 10:00"
+date: "2026-07-06 10:00"
 image: "_media/post-tacos.webp"
 ---
 
