@@ -4,7 +4,7 @@ description: "Golden, bubbling peaches tucked beneath a buttery crumble that tas
 category: "Desserts"
 author: "Emily"
 date: "2026-07-08 10:00"
-image: "_media/post-cobbler.jpg"
+image: "_media/post-cobbler.webp"
 ---
 
 There are certain desserts that seem to belong to a specific time of day, and peach cobbler is definitely a golden hour kind of recipe.

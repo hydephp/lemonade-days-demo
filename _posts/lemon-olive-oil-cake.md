@@ -4,7 +4,7 @@ description: "Incredibly moist with a tender crumb and a bright, zesty finish. M
 category: "Sweets"
 author: "Emily"
 date: "2026-07-09 10:00"
-image: "_media/post-cake.jpg"
+image: "_media/post-cake.webp"
 ---
 
 There are a few bakeries that quietly become part of your weekend routine. The kind where you wander in after a morning farmers' market, order whatever looks fresh from the pastry case, and somehow leave feeling like the whole day has slowed down.

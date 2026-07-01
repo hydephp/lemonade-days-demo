@@ -4,7 +4,7 @@ description: "Golden roasted cauliflower, vibrant mango salsa, and warm tortilla
 category: "Recipes"
 author: "Emily"
 date: "2026-07-03 10:00"
-image: "_media/post-tacos.jpg"
+image: "_media/post-tacos.webp"
 ---
 
 There is something about wandering the Venice Beach boardwalk as the afternoon slips into golden hour. The air carries a hint of salt from the ocean, skateboard wheels hum across the pavement, and dinner somehow feels less like a plan and more like the next stop on a perfect summer evening. These tacos capture that feeling—a little bright, a little messy, and completely worth it.

@@ -4,7 +4,7 @@ description: "A bright, vibrant citrus salad with grapefruit, blood orange, fenn
 category: "Food"
 author: "Emily"
 date: "2026-07-05 10:00"
-image: "_media/post-salad.jpg"
+image: "_media/post-salad.webp"
 ---
 
 There is something about a citrus salad that feels like pressing pause on a busy afternoon. Maybe it's the way the sunlight catches every jewel-toned slice, or how the first crisp bite instantly cools you down after a morning spent wandering the farmers' market. This is the lunch I always come back to after strolling through Silver Lake, when the tote bag is full of fresh produce and the air still smells faintly of eucalyptus.

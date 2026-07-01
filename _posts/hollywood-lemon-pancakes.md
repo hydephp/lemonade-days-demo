@@ -4,7 +4,7 @@ description: "Weekend brunch perfection with fluffy ricotta pancakes, bright lem
 category: "Brunch"
 author: "Emily"
 date: "2026-07-04 10:00"
-image: "_media/post-pancakes.jpg"
+image: "_media/post-pancakes.webp"
 ---
 
 There is something magical about a slow weekend morning when the sunlight spills across the kitchen counter and there is absolutely nowhere you need to be. Maybe the windows are open, the coffee is brewing, and the whole house smells faintly of citrus. It is the kind of morning that makes you want to linger a little longer, stack your pancakes a little higher, and pretend you're spending golden hour in Silver Lake—even if you're simply enjoying breakfast at home.

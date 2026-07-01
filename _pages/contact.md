@@ -4,7 +4,7 @@ title: "Contact"
 
 # Say Yellow!
 
-![A retro yellow telephone on a pastel blue table](../media/contact-vibe.jpg)
+![A retro yellow telephone on a pastel blue table](../media/contact-vibe.webp)
 
 Got a question about a recipe, a fun collaboration idea, or just want to debate which LA farmers' market is actually the absolute best? I'd love to hear from you. 
 

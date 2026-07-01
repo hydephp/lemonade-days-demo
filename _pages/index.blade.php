@@ -5,7 +5,7 @@
     <main id="content" class="mx-auto max-w-7xl py-12 px-8">
         <section class="relative mb-16 lg:mb-24">
             <div class="relative h-[26rem] md:h-[32rem] overflow-hidden rounded-2xl border-2 border-charcoal shadow-retro">
-                <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('hero-home.jpg') }}"
+                <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('background.webp') }}"
                        x-data x-parallax="0.15"
                        class="absolute inset-x-0 -top-[12%] w-full h-[124%] object-cover will-change-transform"
                        autoplay muted loop playsinline></video>
@@ -40,7 +40,7 @@
         </section>
 
         <section class="max-w-4xl mx-auto bg-sand border-2 border-charcoal rounded-2xl p-8 shadow-retro flex flex-col sm:flex-row items-center gap-6">
-            <img src="{{ Hyde::asset('about-portrait.jpg') }}" alt="Emily enjoying a sunny day"
+            <img src="{{ Hyde::asset('about-portrait.webp') }}" alt="Emily enjoying a sunny day"
                  class="w-28 h-28 rounded-full object-cover border-2 border-charcoal shrink-0">
             <div class="text-center sm:text-left">
                 <p class="text-charcoal/90 leading-relaxed mb-3">

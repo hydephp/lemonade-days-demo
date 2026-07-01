@@ -4,7 +4,7 @@ description: "A floral, chilled afternoon refresher made with culinary lavender 
 category: "Drinks"
 author: "Emily"
 date: "2026-07-02 10:00"
-image: "_media/post-tea.jpg"
+image: "_media/post-tea.webp"
 ---
 
 There is a certain kind of summer afternoon when the air feels almost still. The errands are done, the windows are open, and the sunlight pours across the kitchen counter like honey. That's exactly when I start brewing this lavender haze iced tea.

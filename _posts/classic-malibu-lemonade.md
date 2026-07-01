@@ -4,7 +4,7 @@ description: "The quintessential summer lemonade recipe with silky homemade simp
 category: "Drinks"
 author: "Emily"
 date: "2026-07-01 10:00"
-image: "_media/post-lemonade.jpg"
+image: "_media/post-lemonade.webp"
 ---
 
 There are some recipes that instantly transport you somewhere else. This is one of them.

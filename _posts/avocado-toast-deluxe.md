@@ -4,7 +4,7 @@ description: "A golden slice of sourdough topped with creamy avocado, crisp micr
 category: "Breakfast"
 author: "Emily"
 date: "2026-07-06 10:00"
-image: "_media/post-toast.jpg"
+image: "_media/post-toast.webp"
 ---
 
 There are some breakfasts that feel like a vacation, even if you're only stealing twenty quiet minutes before the day begins. This avocado toast is one of them.

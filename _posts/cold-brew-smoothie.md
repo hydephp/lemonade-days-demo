@@ -4,7 +4,7 @@ description: "A creamy morning smoothie with frozen coffee cubes, banana, and oa
 category: "Breakfast"
 author: "Emily"
 date: "2026-07-07 10:00"
-image: "_media/post-smoothie.jpg"
+image: "_media/post-smoothie.webp"
 ---
 
 There’s something magical about those quiet early mornings before the city fully wakes up. The air is still cool, the light is soft, and the first sip of coffee feels like the beginning of a good day. This smoothie was inspired by mornings with the windows open, watching golden light spill across the kitchen counter while planning an easy drive down the PCH with nowhere particular to be.

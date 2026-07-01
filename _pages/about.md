@@ -5,7 +5,7 @@ navigation.title: "About"
 
 # Chasing the Sun & Good Food.
 
-![Emily enjoying a sunny day](../media/about-portrait.jpg)
+![Emily enjoying a sunny day](../media/about-portrait.webp)
 
 Hi, I’m Emily. 
 
