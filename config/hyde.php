@@ -317,7 +317,7 @@ return [
     |
     */
 
-    'footer' => 'Site proudly built with [HydePHP](https://github.com/hydephp/hyde) 🎩',
+    'footer' => 'This is a [HydePHP](https://github.com/hydephp/hyde) demo website with AI generated content.',
 
     /*
     |--------------------------------------------------------------------------
