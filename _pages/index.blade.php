@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <main id="content" class="mx-auto max-w-7xl py-12 px-8">
+    <main id="content" class="mx-auto max-w-7xl pt-6 pb-12 px-8">
         <section class="relative mb-16 lg:mb-24">
             <div class="relative h-[26rem] md:h-[32rem] overflow-hidden rounded-2xl border-2 border-charcoal shadow-retro">
                 <video src="{{ Hyde::asset('background.mp4') }}" poster="{{ Hyde::asset('background.webp') }}"

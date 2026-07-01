@@ -1,12 +1,22 @@
 @php
     $navigation = app('navigation.main');
+    $isHomepage = Hyde::currentRoute()?->getRouteKey() === 'index';
 @endphp
 
-<nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 bg-sand border-b-2 border-charcoal">
-    <div id="main-navigation-brand" class="flex grow items-center shrink-0 text-charcoal">
-        @include('hyde::components.navigation.navigation-brand')
+<nav aria-label="Main navigation" id="main-navigation" @class([
+    'flex flex-wrap items-center p-4 bg-sand',
+    'justify-center' => $isHomepage,
+    'justify-between border-b-2 border-charcoal' => ! $isHomepage,
+])>
+    <div id="main-navigation-brand" @class([
+        'flex items-center shrink-0 text-charcoal',
+        'grow justify-center py-1' => $isHomepage,
+        'grow' => ! $isHomepage,
+    ])>
+        @include('hyde::components.navigation.navigation-brand', ['large' => $isHomepage])
     </div>
 
+    @unless($isHomepage)
     <div class="block md:hidden">
         <button id="navigation-toggle-button" class="flex items-center px-3 py-1 hover:text-charcoal/70"
                 aria-label="Toggle navigation menu" @click="navigationOpen = ! navigationOpen">
@@ -43,4 +53,5 @@
             @endforeach
         </ul>
     </div>
+    @endunless
 </nav>
